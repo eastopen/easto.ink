@@ -15,7 +15,7 @@
       <guid>https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/</guid>
       <description>Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
 Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
-Sample Input 1 5 Sample Output 6 Answer This is a very simple question, just input and output 2 integers values.</description>
+Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just input and output 2 integers values.</description>
     </item>
     
   </channel>

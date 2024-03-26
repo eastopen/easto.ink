@@ -46,7 +46,7 @@
   />
 
   
-  <title>ZOJ 1001 A &#43; B Problem - Easto</title>
+  <title>Lm Practice2: 7-1 Calculate factorial sum - Easto</title>
 
   
   <meta name="theme-color" />
@@ -55,9 +55,11 @@
   
   
   
-  <meta name="description" content="Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
-Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
-Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just input and output 2 integers values." />
+  <meta name="description" content="Question For a given positive integer N, you need to calculate S=1!&#43;2!&#43;3!&#43;…&#43;N!.
+Input The input gives a positive integer N not exceeding 10 in a row.
+Output Print the value of S in one line.
+Sample Input 3 Sample Output 9 Answer (C) Loop to find factorial.
+#include &lt;stdio.h&gt; int get(int num) { int sum = 1; for (int i = 1; i &lt;= num; i&#43;&#43;) sum *= i; return sum; } int main() { int i = 0; scanf(&#34;%d&#34;, &amp;i); int sum = 0; for (int j = 1; j &lt;= i; j&#43;&#43;) sum &#43;= get(j); printf(&#34;%d\n&#34;, sum); } " />
   <meta name="author" content="EastOpen" />
   
 
@@ -146,34 +148,40 @@ Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just
   
   
   
-  <meta itemprop="name" content="ZOJ 1001 A &#43; B Problem">
-<meta itemprop="description" content="Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
-Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
-Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just input and output 2 integers values."><meta itemprop="datePublished" content="2024-03-25T12:41:35+08:00" />
-<meta itemprop="dateModified" content="2024-03-25T12:41:35+08:00" />
-<meta itemprop="wordCount" content="103">
-<meta itemprop="keywords" content="Easy,ACM,C,ZOJ," />
+  <meta itemprop="name" content="Lm Practice2: 7-1 Calculate factorial sum">
+<meta itemprop="description" content="Question For a given positive integer N, you need to calculate S=1!&#43;2!&#43;3!&#43;…&#43;N!.
+Input The input gives a positive integer N not exceeding 10 in a row.
+Output Print the value of S in one line.
+Sample Input 3 Sample Output 9 Answer (C) Loop to find factorial.
+#include &lt;stdio.h&gt; int get(int num) { int sum = 1; for (int i = 1; i &lt;= num; i&#43;&#43;) sum *= i; return sum; } int main() { int i = 0; scanf(&#34;%d&#34;, &amp;i); int sum = 0; for (int j = 1; j &lt;= i; j&#43;&#43;) sum &#43;= get(j); printf(&#34;%d\n&#34;, sum); } "><meta itemprop="datePublished" content="2024-03-26T10:56:36+08:00" />
+<meta itemprop="dateModified" content="2024-03-26T10:56:36+08:00" />
+<meta itemprop="wordCount" content="100">
+<meta itemprop="keywords" content="Easy,ACM,C," />
   
-  <meta property="og:title" content="ZOJ 1001 A &#43; B Problem" />
-<meta property="og:description" content="Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
-Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
-Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just input and output 2 integers values." />
+  <meta property="og:title" content="Lm Practice2: 7-1 Calculate factorial sum" />
+<meta property="og:description" content="Question For a given positive integer N, you need to calculate S=1!&#43;2!&#43;3!&#43;…&#43;N!.
+Input The input gives a positive integer N not exceeding 10 in a row.
+Output Print the value of S in one line.
+Sample Input 3 Sample Output 9 Answer (C) Loop to find factorial.
+#include &lt;stdio.h&gt; int get(int num) { int sum = 1; for (int i = 1; i &lt;= num; i&#43;&#43;) sum *= i; return sum; } int main() { int i = 0; scanf(&#34;%d&#34;, &amp;i); int sum = 0; for (int j = 1; j &lt;= i; j&#43;&#43;) sum &#43;= get(j); printf(&#34;%d\n&#34;, sum); } " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-03-25T12:41:35+08:00" />
-<meta property="article:modified_time" content="2024-03-25T12:41:35+08:00" />
+<meta property="og:url" content="https://easto.ink/posts/lm-practice2-7-1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-26T10:56:36+08:00" />
+<meta property="article:modified_time" content="2024-03-26T10:56:36+08:00" />
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ZOJ 1001 A &#43; B Problem"/>
-<meta name="twitter:description" content="Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
-Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
-Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just input and output 2 integers values."/>
+<meta name="twitter:title" content="Lm Practice2: 7-1 Calculate factorial sum"/>
+<meta name="twitter:description" content="Question For a given positive integer N, you need to calculate S=1!&#43;2!&#43;3!&#43;…&#43;N!.
+Input The input gives a positive integer N not exceeding 10 in a row.
+Output Print the value of S in one line.
+Sample Input 3 Sample Output 9 Answer (C) Loop to find factorial.
+#include &lt;stdio.h&gt; int get(int num) { int sum = 1; for (int i = 1; i &lt;= num; i&#43;&#43;) sum *= i; return sum; } int main() { int i = 0; scanf(&#34;%d&#34;, &amp;i); int sum = 0; for (int j = 1; j &lt;= i; j&#43;&#43;) sum &#43;= get(j); printf(&#34;%d\n&#34;, sum); } "/>
 
   
   
   
-  <link rel="canonical" href="https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/" />
+  <link rel="canonical" href="https://easto.ink/posts/lm-practice2-7-1/" />
   
   
 </head>
@@ -304,12 +312,12 @@ Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">ZOJ 1001 A &#43; B Problem</h1>
+    <h1 class="!my-0 pb-2.5">Lm Practice2: 7-1 Calculate factorial sum</h1>
 
     
     <div class="text-sm antialiased opacity-60">
       
-      <time>Mar 25, 2024</time>
+      <time>Mar 26, 2024</time>
       
       
       
@@ -319,27 +327,39 @@ Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just
   </header>
 
   <section><h2 id="question">Question</h2>
+<p>For a given positive integer N, you need to calculate S=1!+2!+3!+…+N!.</p>
 <h3 id="input">Input</h3>
-<p>The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.</p>
+<p>The input gives a positive integer N not exceeding 10 in a row.</p>
 <h3 id="output">Output</h3>
-<p>For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.</p>
+<p>Print the value of S in one line.</p>
 <h3 id="sample-input">Sample Input</h3>
-<pre tabindex="0"><code>1 5
+<pre tabindex="0"><code>3
 </code></pre><h3 id="sample-output">Sample Output</h3>
-<pre tabindex="0"><code>6
+<pre tabindex="0"><code>9
 </code></pre><hr>
 <h2 id="answer-c">Answer (C)</h2>
-<p>This is a very simple question, just input and output 2 integers values.</p>
+<p>Loop to find factorial.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> a, b;
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (<span style="color:#a6e22e">scanf</span>(<span style="color:#e6db74">&#34;%d %d&#34;</span>, <span style="color:#f92672">&amp;</span>a, <span style="color:#f92672">&amp;</span>b) <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, a <span style="color:#f92672">+</span> b);
-</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">get</span>(<span style="color:#66d9ef">int</span> num)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> num; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>        sum <span style="color:#f92672">*=</span> i;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> sum;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">scanf</span>(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>i);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> i; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>        sum <span style="color:#f92672">+=</span> <span style="color:#a6e22e">get</span>(j);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, sum);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></section>
 
@@ -364,12 +384,6 @@ Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just
       href="https://easto.ink/tags/c"
       >C</a
     >
-     
-    <a
-      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
-      href="https://easto.ink/tags/zoj"
-      >ZOJ</a
-    >
     
   </footer>
   
@@ -382,10 +396,16 @@ Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just
     
     <a
       class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://easto.ink/posts/lm-practice2-7-1/"
-      ><span class="mr-1.5">←</span><span>Lm Practice2: 7-1 Calculate factorial sum</span></a
+      href="https://easto.ink/posts/lm-practice2-7-2/"
+      ><span class="mr-1.5">←</span><span>Lm Practice2: 7-2 So handsome that he has no friends</span></a
     >
     
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/"
+      ><span>ZOJ 1001 A &#43; B Problem</span><span class="ml-1.5">→</span></a
+    >
     
   </nav>
   

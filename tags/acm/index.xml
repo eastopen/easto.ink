@@ -6,7 +6,30 @@
     <description>Recent content in ACM on Easto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 12:41:35 +0800</lastBuildDate><atom:link href="https://easto.ink/tags/acm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Mar 2024 10:56:53 +0800</lastBuildDate><atom:link href="https://easto.ink/tags/acm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lm Practice2: 7-2 So handsome that he has no friends</title>
+      <link>https://easto.ink/posts/lm-practice2-7-2/</link>
+      <pubDate>Tue, 26 Mar 2024 10:56:53 +0800</pubDate>
+      
+      <guid>https://easto.ink/posts/lm-practice2-7-2/</guid>
+      <description>Question When all living beings are busy posting photos in WeChat Moments, there are always some people who have no friends because they are too handsome. This question asks you to find those people who are so handsome that they have no friends.
+Input The first line of input gives a positive integer N (≤100), which is the number of known friend circles; the following N lines, each line first gives a positive integer K (≤1000), which is the number of people in the friend circle, and then List all the people in a circle of friends - for convenience, each person corresponds to an ID number, which is a 5-digit number (from 00000 to 99999), and the IDs are separated by spaces; then a positive integer M (≤10000) is given , is the number of people to be queried; the following row lists M IDs to be queried, separated by spaces.</description>
+    </item>
+    
+    <item>
+      <title>Lm Practice2: 7-1 Calculate factorial sum</title>
+      <link>https://easto.ink/posts/lm-practice2-7-1/</link>
+      <pubDate>Tue, 26 Mar 2024 10:56:36 +0800</pubDate>
+      
+      <guid>https://easto.ink/posts/lm-practice2-7-1/</guid>
+      <description>Question For a given positive integer N, you need to calculate S=1!+2!+3!+…+N!.
+Input The input gives a positive integer N not exceeding 10 in a row.
+Output Print the value of S in one line.
+Sample Input 3 Sample Output 9 Answer (C) Loop to find factorial.
+#include &amp;lt;stdio.h&amp;gt; int get(int num) { int sum = 1; for (int i = 1; i &amp;lt;= num; i++) sum *= i; return sum; } int main() { int i = 0; scanf(&amp;#34;%d&amp;#34;, &amp;amp;i); int sum = 0; for (int j = 1; j &amp;lt;= i; j++) sum += get(j); printf(&amp;#34;%d\n&amp;#34;, sum); } </description>
+    </item>
+    
     <item>
       <title>ZOJ 1001 A &#43; B Problem</title>
       <link>https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/</link>
@@ -15,7 +38,7 @@
       <guid>https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/</guid>
       <description>Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
 Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
-Sample Input 1 5 Sample Output 6 Answer This is a very simple question, just input and output 2 integers values.</description>
+Sample Input 1 5 Sample Output 6 Answer (C) This is a very simple question, just input and output 2 integers values.</description>
     </item>
     
   </channel>

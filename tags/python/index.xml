@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Easto</title>
+    <link>https://easto.ink/tags/python/</link>
+    <description>Recent content in Python on Easto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Mar 2024 10:56:53 +0800</lastBuildDate><atom:link href="https://easto.ink/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lm Practice2: 7-2 So handsome that he has no friends</title>
+      <link>https://easto.ink/posts/lm-practice2-7-2/</link>
+      <pubDate>Tue, 26 Mar 2024 10:56:53 +0800</pubDate>
+      
+      <guid>https://easto.ink/posts/lm-practice2-7-2/</guid>
+      <description>Question When all living beings are busy posting photos in WeChat Moments, there are always some people who have no friends because they are too handsome. This question asks you to find those people who are so handsome that they have no friends.
+Input The first line of input gives a positive integer N (≤100), which is the number of known friend circles; the following N lines, each line first gives a positive integer K (≤1000), which is the number of people in the friend circle, and then List all the people in a circle of friends - for convenience, each person corresponds to an ID number, which is a 5-digit number (from 00000 to 99999), and the IDs are separated by spaces; then a positive integer M (≤10000) is given , is the number of people to be queried; the following row lists M IDs to be queried, separated by spaces.</description>
+    </item>
+    
+  </channel>
+</rss>
