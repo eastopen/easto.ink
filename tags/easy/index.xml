@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Easy on Easto</title>
+    <link>https://easto.ink/tags/easy/</link>
+    <description>Recent content in Easy on Easto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Mar 2024 12:41:35 +0800</lastBuildDate><atom:link href="https://easto.ink/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ZOJ 1001 A &#43; B Problem</title>
+      <link>https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/</link>
+      <pubDate>Mon, 25 Mar 2024 12:41:35 +0800</pubDate>
+      
+      <guid>https://easto.ink/posts/zoj-1001-a-&#43;-b-problem/</guid>
+      <description>Question Input The input will consist of a series of pairs of integers a and b,separated by a space, one pair of integers per line.
+Output For each pair of input integers a and b you should output the sum of a and b in one line,and with one line of output for each line in input.
+Sample Input 1 5 Sample Output 6 Answer This is a very simple question, just input and output 2 integers values.</description>
+    </item>
+    
+  </channel>
+</rss>
