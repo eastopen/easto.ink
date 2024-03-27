@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Argo on Easto</title>
+    <link>https://easto.ink/tags/argo/</link>
+    <description>Recent content in Argo on Easto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Mar 2024 19:21:28 +0800</lastBuildDate><atom:link href="https://easto.ink/tags/argo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>整除分块 - 向下取整 #1</title>
+      <link>https://easto.ink/posts/dc-algo-1/</link>
+      <pubDate>Tue, 26 Mar 2024 19:21:28 +0800</pubDate>
+      
+      <guid>https://easto.ink/posts/dc-algo-1/</guid>
+      <description>整除分块是一种简化合并复杂区间问题的算法。它可以用于快速计算一些过于长的，含有向下取整（整除）的问题，时间复杂度 $O(\sqrt{n})$
+示例场景 例题： 输入整数 n， 计算 $\sum_{i=1}^{n} \lfloor\frac n i\rfloor$
+这个时候使用枚举法遍历每个 i 然后求和只能在 n 较小时可用，但是如果 n 非常大，超时概率 100% 根本不用写。
+以下是一个枚举实现的示例，它的平均运行时间需要 1500ms
+int main() { int n = 10e8; long long ans = 0; for (int i = 1; i &amp;lt;= n; i++) { ans += n / i; } printf(&amp;#34;%lld\n&amp;#34;, ans); return 0; } 算法思路 整除分块使用了一种很巧妙的思路，在整除向下取整的场景中，会有大量连续数字得出的结果是相同的，如：
+... 1000/253=3 1000/254=3 1000/255=3 ... 可以将这些连续数字作为块处理，同时计算他们的结果并跳过整个部分，只计算每个块的结果，大大降低计算次数
+int main() { int n = 10e8; long long ans = 0; for (int l = 1, k, r; l &amp;lt;= n; l = r + 1) { k = n / l; r = n / k; ans += k * (r - l + 1); } printf(&amp;#34;%lld\n&amp;#34;, ans); return 0; } l - 当前块的起始位置 r - 当前块的结束位置 k - 当前块的整除解 ans - 总数 这个循环内代码可以拆分为以下几个步骤：</description>
+    </item>
+    
+  </channel>
+</rss>

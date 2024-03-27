@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://easto.ink/tags/acm/</loc>
-    <lastmod>2024-03-26T10:56:53+08:00</lastmod>
+    <loc>https://easto.ink/tags/argo/</loc>
+    <lastmod>2024-03-26T19:21:28+08:00</lastmod>
+  </url><url>
+    <loc>https://easto.ink/tags/c/</loc>
+    <lastmod>2024-03-26T19:21:28+08:00</lastmod>
   </url><url>
     <loc>https://easto.ink/</loc>
+    <lastmod>2024-03-26T19:21:28+08:00</lastmod>
+  </url><url>
+    <loc>https://easto.ink/posts/</loc>
+    <lastmod>2024-03-26T19:21:28+08:00</lastmod>
+  </url><url>
+    <loc>https://easto.ink/tags/</loc>
+    <lastmod>2024-03-26T19:21:28+08:00</lastmod>
+  </url><url>
+    <loc>https://easto.ink/posts/dc-algo-1/</loc>
+    <lastmod>2024-03-26T19:21:28+08:00</lastmod>
+  </url><url>
+    <loc>https://easto.ink/tags/acm/</loc>
     <lastmod>2024-03-26T10:56:53+08:00</lastmod>
   </url><url>
     <loc>https://easto.ink/tags/easy/</loc>
@@ -14,17 +29,8 @@
     <loc>https://easto.ink/posts/lm-practice2-7-2/</loc>
     <lastmod>2024-03-26T10:56:53+08:00</lastmod>
   </url><url>
-    <loc>https://easto.ink/posts/</loc>
-    <lastmod>2024-03-26T10:56:53+08:00</lastmod>
-  </url><url>
     <loc>https://easto.ink/tags/python/</loc>
     <lastmod>2024-03-26T10:56:53+08:00</lastmod>
-  </url><url>
-    <loc>https://easto.ink/tags/</loc>
-    <lastmod>2024-03-26T10:56:53+08:00</lastmod>
-  </url><url>
-    <loc>https://easto.ink/tags/c/</loc>
-    <lastmod>2024-03-26T10:56:36+08:00</lastmod>
   </url><url>
     <loc>https://easto.ink/posts/lm-practice2-7-1/</loc>
     <lastmod>2024-03-26T10:56:36+08:00</lastmod>
